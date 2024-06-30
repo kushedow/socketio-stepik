@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         store: store,
         container: "#app",
         pages: app_pages,
-        url: window.location.hostname
+        url: window.location.host
     });
 
     app.addHandler("next", () => {
